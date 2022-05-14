@@ -1,0 +1,343 @@
+:root {
+    --primaryColor : #CB4CB4;
+}
+*{
+    padding:0;
+    margin:0;
+}
+.banner__bg {
+    background-image: url("BG.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    overflow: hidden;
+}
+.Navigation-bar2{
+    padding: 30px 0;
+    max-width: 80%;
+    margin: 0 auto;
+}
+.Links2 {
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(37, 37, 37);
+    font-weight: bold;
+    line-height: 2.95;
+    gap:20px;
+}
+.elements a{
+    text-decoration:none;
+    color:black;
+}
+.element1 a{
+    text-decoration:none;
+    color:black;
+    font-weight:300;
+}
+.Links2.element1{
+    font-family:"Montserrat";
+    font-weight:300;
+}
+.flex {
+    display: flex;
+}
+.just_cont_center {
+    justify-content: center;
+}
+.just_cont_space_between {
+justify-content: space-between;
+}
+.just_cont_f_start {
+    justify-content: flex-start;
+}
+.align_item_center {
+    align-items: center;
+}
+.align_item_f_start {
+    align-items: flex-start;
+}
+.just_cont_around{
+    justify-content:space-around;
+}
+.just_cont_space_evenly{
+    justify-content:space-evenly;
+}
+
+.theme_title {
+    font-size: 20px;
+    font-family: "Poppins";
+    text-align:center;
+    padding-top:42px;
+}
+.theme_title.lg {
+    font-size: 28px;
+    font-family: "Montserrat";
+}
+.theme_title.black {
+    color: black;
+}
+.theme_title.white {
+    color: white;
+    font-size:28px;
+    text-align:left;
+}
+.theme_paragraph {
+    font-size: 16px;
+    font-family: "Poppins";
+}
+.theme_paragraph.black {
+    color: black;
+}
+.theme_paragraph.white {
+    color: white;
+}
+
+.banner_Text_wrapper {
+    max-width: 30%;
+    margin: 7% auto;
+    padding-left: 28%;
+}
+
+.theme_title.colorerd span {
+    color: var(--primaryColor);
+}
+.page2-text-box{
+    gap:40px;
+}
+.page2-sub-text{
+    font-size: 15px;
+    font-family: "Poppins";
+    padding-top:10px;
+    max-width:88%;
+}
+
+.page2-sub-heading1{
+    font-family: 'Montserrat', sans-serif;
+    font-size:22px;
+}
+.page2-first-IMG {
+    width: 427px;
+    height: 533px;
+  }
+.page2-second-IMG2 {
+    width: 325px;
+    height: 414px;
+    margin-top:-110px;
+  }
+  .page2{
+      margin:0 auto;
+      width:70%;
+  }
+  .page2-first-IMG{
+      padding-left:35px;
+  }
+  .page2-second-IMG2{
+      padding-right:35px;
+  }
+
+.experience-background {
+    background-image: url("BACKGROUND.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow:hidden;
+    width:100%;
+    height: 350px;
+    margin-top:45px;
+  }
+  .box-1{
+      text-align:center;
+  }
+  .box-1 p{
+    font-family: "Poppins";
+    font-size:12px;
+  }
+  .sub-heading1-page3 span{
+    color: var(--primaryColor);
+  }
+  .sub-heading1-page3 {
+    font-family:"Montserrat";
+    font-size:28px;
+  }
+  .sub-container-page3{
+    padding-top:85px;
+    justify-content:center;
+    align-content:space-between;
+    gap:140px;
+}
+.pink-wrapper{
+    max-width: 65%;
+    margin: 0 auto;
+    padding-top:28px;
+}
+.pink-main-heading{
+    font-size: 30px;
+    font-family: "Poppins";
+    color: rgb(37, 37, 37);
+    line-height: 1.75;
+    font-family:"Montserrat";
+  }
+  .pink-main-heading span{
+    color: var(--primaryColor);
+  }
+  .pink-header-text {
+    font-size: 15px;
+    text-align:center;
+    font-family: "Montserrat";
+    color: rgb(37, 37, 37);
+  }
+  .pink-process-box1{
+      padding:40px 0 80px 0;
+  }
+  .process-package1{
+      width:75%;
+  }
+  .process-package1 h3{
+      padding:10px 0;
+      font-family:"Montserrat";
+  }
+  .process-package1 p{
+    font-family: "Poppins";
+    font-size:12px;
+  }
+  #process-subbox1{
+      border-left:2px solid white;
+      padding:0 10px;
+      margin-left:10px;
+  }
+  #process-subbox2{
+      border-left:2px solid white;
+      padding:0 10px;
+      margin-left:10px;
+  }
+  .pink-Processes{
+    padding-left:110px;
+    padding-right:110px;
+    justify-items:space-between;
+}
+.Document{
+    padding-top:45px;
+}
+.document-background {
+    background-image: url("BACKGROUND.png");
+    overflow:hidden;
+    width:100%;
+    height: 350px;
+  }
+.document-lists{
+    gap:65px;
+    padding-top:66px;
+}
+.document-lists img{
+    height:30vh;
+    width:18vh;
+
+}
+
+.last-page-background {
+    background-image: url("last-background.png");
+    /* position: absolute; */
+    left: 0px;
+    top: 3457px;
+    width: 100%;
+    height: 550px;
+    z-index: 144;
+  }
+  .last-subsection{
+    padding-top:27vh;
+    width:100%;
+    gap:3%;
+}
+.last--lists{
+    display:flex;
+    flex-direction:row;
+    gap:30%;
+    font-size:14px;
+}
+.last-section-firstbox span{
+    color: var(--primaryColor);
+}
+.last-section-secondbox span{
+    color: var(--primaryColor);
+}
+.last-section-thirdbox span{
+    color: var(--primaryColor);
+}
+.last-duplicate-list{
+    font-family: 'Nunito', sans-serif;
+    line-height:30px;
+    color:grey;
+}
+.last-section2-item1{
+    gap:10px;
+}
+.last-section2-item2{
+    padding-top:10px;
+    color:grey;
+    width:38%;
+}
+.last-section-second-items{
+    font-family: 'Nunito', sans-serif;
+    font-size:14px;
+    gap:20px;
+}
+
+.last-section-secondbox1 p{
+    color: var(--primaryColor);
+}
+.last-section-secondbox{
+    padding-left:60px;
+}
+.last-flex{
+    font-family: 'Oswald', sans-serif;
+    padding-bottom:50px;
+}
+.last--flex{
+    font-family: 'Oswald', sans-serif;
+    padding-bottom:35px;
+}
+.thirdbox-items{
+    font-family: 'Nunito', sans-serif;
+    font-size:14px;
+    color:grey;
+    line-height:16px;
+    padding-top:5px;
+}
+.last-section3-logo {
+    background-image: url("Logo2.png");
+    width: 137px;
+    height: 59px;
+  }
+
+  .last-line{
+    font-family: 'Nunito', sans-serif;
+    font-size:10px;
+    padding-top:60px;
+}
+.last-img1{
+    width:25px;
+    height:25px;
+}
+.icons-lists img{
+    padding:0 10px;
+}
+.last-double-lists{
+    gap:70px;
+}
+
+
+
+.process-package1 span{
+    color: var(--primaryColor);
+}
+
+.flex-direction-row{
+    flex-direction:row;
+}
+.flex-direction-row-rev{
+    flex-direction:row-reverse;
+}
+.flex-direction-column{
+    flex-direction:column;
+}
